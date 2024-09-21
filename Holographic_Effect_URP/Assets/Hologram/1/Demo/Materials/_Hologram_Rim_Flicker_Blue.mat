@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: _Hologram_Rim_Flicker_Blue
-  m_Shader: {fileID: 4800000, guid: 19c51e9028d172049af6843ca22c28e0, type: 3}
+  m_Shader: {fileID: 4800000, guid: 29fed12d8547e354e90be987488147c1, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -23,6 +23,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_153BB4A9:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - Texture2D_48882336:
         m_Texture: {fileID: 2800000, guid: 7bae9f3d8fb74334ba3889f53fe7eea0, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -79,6 +83,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_c2d789d9e19cd080b4e276aee7dc63fa_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 3e705fb1f8107bb48b4e2985023899e3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Scanline:
         m_Texture: {fileID: 2800000, guid: 20a617585b6151b4e8e177fc19a927c5, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -101,8 +109,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - Vector1_1D9A2AE: 0.01
     - Vector1_6DC2C68C: 0.1
+    - Vector1_EFE64959: 30
+    - Vector1_FEFF47F1: 0
     - _Alpha: 0.35
+    - _Amount: 1
     - _Brightness: 1.25
     - _BumpScale: 1
     - _Cutoff: 0.5
@@ -140,6 +152,8 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - Color_19C6C157: {r: 0.44388568, g: 0.7075471, b: 0.4713053, a: 0}
+    - Color_6DF76E71: {r: 0, g: 5.145098, b: 16, a: 0}
+    - Color_B23AA66E: {r: 2, g: 1.043137, b: 0.2196078, a: 0}
     - Color_E448CF9F: {r: 1.498039, g: 0.5411765, b: 0, a: 0}
     - Vector2_6925FF1E: {r: 1, g: 3, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}

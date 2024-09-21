@@ -245,6 +245,11 @@ namespace OpenCvSharp
             return NativeMethods.objdetect_CascadeClassifier_getFeatureType(ptr);
         }
 
+        internal void Load(MemoryStream memoryStream)
+        {
+            throw new NotImplementedException();
+        }
+
         #endregion
     }
 
